@@ -26,7 +26,7 @@ def guardar():
     # Query parametrizada - protegida contra SQL injection
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute("INSERT INTO usuarios (nombre, email, password_hash) VALUES (?, '', '')", (nombre,))
+    cursor.execute("INSERT INTO usuarios (nombre) VALUES (?)", (nombre,))
     conn.commit()
     conn.close()
 

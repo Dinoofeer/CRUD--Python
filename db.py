@@ -1,11 +1,10 @@
 import pyodbc
 
-# Configuracion del usuario RESTRINGIDO (no es admin)
 DB_CONFIG = {
-    'server': 'localhost',
-    'database': 'crud_examen',
-    'username': 'app_crud_login',
-    'password': 'CrudApp2026!',
+    'server': 'SQL5106.site4now.net',
+    'database': 'db_a34a77_capecac',
+    'username': 'db_a34a77_capecac_admin',
+    'password': 'qwer7410',
 }
 
 
